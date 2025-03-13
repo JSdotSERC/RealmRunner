@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/homeicon"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/statsicon"
+            android:title="@string/menu_stats" />
+        <item
+            android:id="@+id/nav_collections"
+            android:icon="@drawable/collectionsicon"
+            android:title="@string/menu_collections" />
+
+        <item
+            android:id="@+id/nav_compete"
+            android:icon="@drawable/competeicon"
+            android:title="@string/menu_compete" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settingsicon"
+            android:title="@string/menu_settings" />
+    </group>
+</menu>
