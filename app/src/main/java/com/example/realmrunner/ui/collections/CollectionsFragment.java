@@ -10,21 +10,21 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.realmrunner.databinding.FragmentCollectionsBinding;
+import com.example.realmrunner.databinding.FragmentHomeBinding;
 
 public class CollectionsFragment extends Fragment {
 
-    private FragmentCollectionsBinding binding;
+    private FragmentHomeBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         CollectionsViewModel collectionsViewModel =
                 new ViewModelProvider(this).get(CollectionsViewModel.class);
 
-        binding = FragmentCollectionsBinding.inflate(inflater, container, false);
+        binding = FragmentHomeBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
+        final TextView textView = binding.textHome;
         collectionsViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
