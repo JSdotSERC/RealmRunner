@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".ui.collections.CollectionsFragment">
 
+    <TextView
+        android:id="@+id/text_collections"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btnBadges"
         android:layout_width="302dp"
@@ -29,7 +43,7 @@
         android:layout_marginStart="54dp"
         android:layout_marginEnd="55dp"
         android:layout_marginBottom="169dp"
-        android:text="Button"
+        android:text="Achievements"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
