@@ -10,7 +10,7 @@ public class CompeteViewModel extends ViewModel {
 
     public CompeteViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("COMPETE");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

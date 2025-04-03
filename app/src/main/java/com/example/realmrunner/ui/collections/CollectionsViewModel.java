@@ -10,7 +10,7 @@ public class CollectionsViewModel extends ViewModel {
 
     public CollectionsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("COLLECTIONS");
+        mText.setValue("");
     }
 
     public LiveData<String> getText() {

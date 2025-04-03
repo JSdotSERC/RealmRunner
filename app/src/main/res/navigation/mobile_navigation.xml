@@ -6,6 +6,11 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_page_UC"
+        android:name="com.example.realmrunner.ui.page_uc.PageUCFragment"
+        android:label="@string/menu_page_uc"
+        tools:layout="@layout/fragment_stats" />
+    <fragment
         android:id="@+id/nav_home"
         android:name="com.example.realmrunner.ui.home.HomeFragment"
         android:label="@string/app_name"
@@ -34,4 +39,5 @@
         android:name="com.example.realmrunner.ui.settings.SettingsFragment"
         android:label="@string/menu_settings"
         tools:layout="@layout/fragment_settings" />
+
 </navigation>

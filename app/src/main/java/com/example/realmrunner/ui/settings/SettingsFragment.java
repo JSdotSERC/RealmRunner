@@ -10,7 +10,6 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.realmrunner.databinding.FragmentHomeBinding;
 import com.example.realmrunner.databinding.FragmentSettingsBinding;
 
 public class SettingsFragment extends Fragment {
